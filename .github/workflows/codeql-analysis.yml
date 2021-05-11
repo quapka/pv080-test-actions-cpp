@@ -55,10 +55,10 @@ jobs:
     # If this step fails, then you should remove it and run the build manually (see below)
     # - name: Autobuild
     #   uses: github/codeql-action/autobuild@v1
-    - if: matrix.language == 'cpp'
-      name: build cpp
-      run: |
-          make
+    # - if: matrix.language == 'cpp'
+    #   name: build cpp
+    #   run: |
+    #       make
 
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 https://git.io/JvXDl
