@@ -3,4 +3,3 @@ main:
 
 clean:
 	-rm a.out
-	g++ ./fail.cpp
